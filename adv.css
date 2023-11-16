@@ -1,0 +1,30 @@
+.img
+{
+    height: 3cm;
+    display: flex;
+    justify-content: left;
+}
+.inp1
+{
+    display: flex;
+
+    color: black;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body
+{
+    background-image: url(background2.png);
+}
+.file
+{
+    display: flex;
+    text-align: justify;
+}
+.text
+{
+    text-align: right;
+    
+}

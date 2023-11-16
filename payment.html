@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="payment.css">
+<div class="card-container">
+    <div class="card-wrapper"></div>
+  
+    <div class="form-container">
+      <form action="">
+        <label for="number">Card Number</label>
+        <input placeholder="XXXX  XXXX  XXXX  XXXX" type="text" name="number">
+        <label for="name">Name on Card</label>
+        <input placeholder="Full Name" type="text" name="name"><br>
+  
+        <div class="cardForm-Field50">
+          <label for="expiry">Expiry Date</label><br>
+          <input placeholder="MM/YY" type="text" name="expiry" class="secondRow">
+        </div>
+        <div class="cardForm-Field50">
+          <label for="cvc">Security Code</label><br>
+          <input placeholder="XXX" type="text" name="cvc" class="secondRow incorrectInfo">
+        </div>
+          
+          <label for="name">Postal Code / ZIP</label>
+        <input placeholder="XXX XXX" type="text" name="name"><br>
+  
+        <!-- Button Default -->
+        <input type="submit" value="Enter your Card info..." class="button CardDefault">
+        
+        <!-- Button Pay -->
+        <input type="submit" value="confirm your order" class="button CardGood">
+        
+        <!-- Button Warning -->
+        <input type="submit" value="Please verify your card information..." class="button CardWarning">
+  
+        <div style="padding-top:15px!important;display:block;">
+          <h2 style="padding-top:150px!important;">Additional Reading</h2>
+          <a style="background:#ddd;display:block;padding:10px;" href="https://medium.com/user-experience-design-1/the-anatomy-of-a-credit-card-payment-form-32ec0e5708bb">Medium - The Anatomy of a Credit Card Form</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  

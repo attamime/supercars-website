@@ -1,0 +1,90 @@
+form{
+background-color: white;
+padding: 50px 20px;
+width: 40rem;
+height: 89rem;
+text-align: center;
+margin-top: 3rem;
+border-radius:50px;
+opacity: 2;
+font-size: xx-large;
+}
+body{
+background-image: url(rm314-bb-18.jpg);    
+}
+h2{
+
+    font-size: 5rem ;
+}
+    
+input{
+    
+    font-size: 2rem;
+    height: 3rem;
+}
+.btn{
+    border-radius:30px;
+    height: 60px;
+    text-align: center;
+}
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+  
+  .input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+  }
+  .custom-btn {
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    font-size: 30px;
+  }
+  
+  .btn-2 {
+    background: #004dff;
+    background: linear-gradient(0deg, #004dff 0%, #004dff 100%);
+    border: none;
+  }
+  
+  .btn-2:before {
+    height: 0%;
+    width: 2px;
+  }
+  
+  .btn-2:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+  a{
+    color: #004dff;
+  }
+  .login
+      {
+        height: 50px;
+      }
+  
